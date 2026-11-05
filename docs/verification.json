@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "date": "2026-11-05",
+  "platform": "Linux",
+  "kicad": "10.0.7",
+  "geometry_and_drc_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "gui_test": "Actual wx modal Check DRC → Apply, with synthetic host board; backup preserved and source file untouched. Native KiCad menu registration is not covered by this isolated test.",
+  "cli_test": {
+    "before_drc_findings": 0,
+    "after_drc_findings": 0,
+    "output_created": true,
+    "input_unchanged": true
+  },
+  "examples": "Synthetic, no proprietary boards; no RF performance claim."
+}
